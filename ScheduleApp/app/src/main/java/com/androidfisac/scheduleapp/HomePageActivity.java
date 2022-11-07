@@ -26,7 +26,7 @@ public class HomePageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.admin_screen);
         DbAdapter adapter = new DbAdapter(this);
-        sc=adapter.openRead();
+        
         tvSNo1=findViewById(R.id.sNum1);
         tvSNo2=findViewById(R.id.sNum2);
         tvSNo3=findViewById(R.id.sNum3);
